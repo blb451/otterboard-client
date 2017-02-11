@@ -8,6 +8,7 @@ import Routes from './router';
 import reducers from './reducers/';
 
 import './styles/styles.scss';
+import './styles/font-awesome/scss/font-awesome.scss';
 
 const App = () => {
   /* eslint-disable no-underscore-dangle */

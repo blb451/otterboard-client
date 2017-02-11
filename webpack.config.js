@@ -42,7 +42,7 @@ const config = {
         ],
       },
       {
-        test: /\.(otf|ttf|svg|eot)$/,
+        test: /\.(otf|ttf|svg|eot|woff|woff2)$/,
         loader: 'file-loader',
         options: {
           name: 'fonts/[hash].[ext]',
