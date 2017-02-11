@@ -26,15 +26,15 @@ class Adder extends Component {
     const { count } = this.state;
     const { price } = this.props;
     return (
-      <div className="adderStyle">
-        <button className="buttonStyle" onClick={this.changeValue('-')}>
+      <div className="adder__body">
+        <button className="adder__button" onClick={this.changeValue('-')}>
           <FontAwesome name="minus" size="2x" style={{ color: '#e91' }} />
         </button>
-        <div className="valueStyle">
-          <p className="countStyle">{`$${count} x ${price}`}</p>
-          <p className="totalStyle">{`$${(count * price).toFixed(2)}`}</p>
+        <div className="adder__value">
+          <p className="adder__count">{`$${count} x ${price}`}</p>
+          <p className="adder__total">{`$${(count * price).toFixed(2)}`}</p>
         </div>
-        <button className="buttonStyle" onClick={this.changeValue('+')}>
+        <button className="adder__button" onClick={this.changeValue('+')}>
           <FontAwesome name="plus" size="2x" style={{ color: '#e91' }} />
         </button>
       </div>

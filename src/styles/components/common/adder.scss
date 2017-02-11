@@ -1,29 +1,29 @@
-.adderStyle {
+.adder__body {
   display: flex;
   flex-direction: row;
   text-align: center;
 }
 
-.buttonStyle {
+.adder__button {
   border: none;
   background-color: white;
   margin: 2em;
 }
 
-.countStyle {
+.adder__count {
   font-size: 15px;
   color: #555;
   margin: 10px 0px;
   padding: 0px;
 }
 
-.totalStyle {
+.adder__total {
   font-size: 20px;
   color: #555;
   margin: 0px;
   padding: 0px;
 }
 
-.valueStyle {
+.adder__value {
   align-items: center;
 }
