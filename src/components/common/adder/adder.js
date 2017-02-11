@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
+import '../../../styles/components/common/adder.scss';
 
 class Adder extends Component {
   constructor(props) {
