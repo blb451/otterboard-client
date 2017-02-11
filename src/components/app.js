@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Adder from '../components/common/adder/';
+import ProductRow from '../components/productRow';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Adder price={5} />
+        <ProductRow />
       </div>
     );
   }
